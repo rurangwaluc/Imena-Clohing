@@ -704,13 +704,14 @@ header .icons a:hover{
 
   header .navbar a{
     font-size: 2rem;
-    background:#fff;
-    border:.1rem solid var(--black);
-    border-radius: .5rem;
-    padding:1.5rem;
-    margin:1.5rem;
+    background:#F9F9F9;
+    padding:1.5rem 3rem;
     display: block;
-    text-align: center;
+    text-align: left;
+  }
+
+  .home{
+    padding-top: 100px;
   }
 
   .home .slide-container .slide .image .text{
@@ -766,6 +767,11 @@ header .icons a:hover{
 	color:#FFF;
 }
 
+@media screen and (max-width: 1114px){
+  .home{
+    padding-top: 100px;
+  }
+}
 @media screen and (max-width: 767px){
 
  
